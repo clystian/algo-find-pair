@@ -1,3 +1,5 @@
+# Find Pair
+Find the pairs in an array whose sum of a number N
 
 # How to run tests
 ```bash
