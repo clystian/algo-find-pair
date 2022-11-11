@@ -5,7 +5,7 @@ const { findPairs } = require('./../lib/array.util');
 const options = yargs
     .usage("Usage: -a <array> -n <number>")
     .option("a", { alias: "array", describe: "Your array", type: "array", demandOption: true })
-    .option("n", { alias: "n", describe: "given n", type: "number", demandOption: true })
+    .option("n", { alias: "number", describe: "given number", type: "number", demandOption: true })
     .argv;
 
 const array = options["array"].length > 1 ? options["array"] : (options["array"][0] + '').split(",").map(i => Number.parseInt(i, 10))
