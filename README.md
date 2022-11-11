@@ -14,6 +14,7 @@ and run with custom inputs
 ```bash
 npx algo-find-pair -a 1,9,5,0,20,-4,12,16,7 -n 12  
 ```
+![execution animation](https://i.ibb.co/rkFCv5k/algo-find-pair.gif)
 
 ## running from source code
 
