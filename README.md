@@ -1,6 +1,18 @@
 # Find Pair
 Find the pairs in an array whose sum of a number N
 
+## Task
+
+create a function that finds pairs of integers from a list that
+sum to a given value. The function will take as input the list of numbers as
+well as the target sum.
+
+create a command line tool that takes as command line
+arguments a comma separated list of integers, and the target integer.
+
+You can assume that all input values are integers.
+You can assume that there aren't any repeat values in the list.
+
 # How to run tests
 ```bash
 npm run test
